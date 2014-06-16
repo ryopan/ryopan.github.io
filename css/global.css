@@ -53,23 +53,25 @@ body{
 	width:320px;
 		
 	display: -webkit-flex;
-	-webkit-box-pack: center;
 	-webkit-box-align: center;
 	-webkit-flex-direction: row;
 	-webkit-flex-wrap:wrap;
+	-webkit-justify-content:space-between;
 
 	display: -moz-box;
 	-moz-box-pack: center;
 	-moz-box-align: center;
 	-moz-flex-direction: row;
 	-moz-flex-wrap: wrap;
+	-moz-justify-content:space-between;
 	
 	display: box;
 	box-pack: center;
 	box-align: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-		
+	justify-content:space-between;
+	
 	background: #888;
 }
 
@@ -78,6 +80,5 @@ body{
 	height: 140px;
 	margin: 10px;
 	text-align: center;
-	
 }
 }
