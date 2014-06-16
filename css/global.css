@@ -1,8 +1,6 @@
 body{
 	padding:0;
 	margin:0 auto;
-	background: -moz-linear-gradient(top, #fdf7ed, #f4f4f4);
-	background: -webkit-gradient(linear, left top, left bottom, from(#fdf7ed), to(#f4f4f4));
 }
 
 /*********** clear ***********/
@@ -48,9 +46,11 @@ body{
 
 
 @media screen and (max-width: 640px) {
+
 .profileBox{
 	margin: 0 auto;
-	width:320px;
+	width:305px;
+	padding-top: 40px;
 		
 	display: -webkit-flex;
 	-webkit-box-align: center;
@@ -72,13 +72,17 @@ body{
 	flex-wrap: wrap;
 	justify-content:space-between;
 	
-	background: #888;
+	background: #FFFFFF;
 }
 
 .boxItem{
-	width: 80px;
-	height: 140px;
-	margin: 10px;
+	height: 110px;
+	margin: 0px;
 	text-align: center;
+}
+
+.boxItem img{
+	width: 90px;
+	height: 90px;
 }
 }
