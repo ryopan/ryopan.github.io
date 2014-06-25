@@ -21,7 +21,7 @@ body{
 	-webkit-flex-wrap:wrap;
 
 	display: -moz-box;
-	-moz-box-pack: center;
+	-moz-box-pack: justify;
 	-moz-box-align: center;
 	-moz-flex-direction: row;
 	-moz-flex-wrap: wrap;
@@ -51,20 +51,20 @@ body{
 	padding-top: 40px;
 		
 	display: -webkit-flex;
-	-webkit-box-align: center;
+	-webkit-box-align: justify;
 	-webkit-flex-direction: row;
 	-webkit-flex-wrap:wrap;
 	-webkit-justify-content:space-between;
 
 	display: -moz-box;
-	-moz-box-pack: center;
+	-moz-box-pack: justify;
 	-moz-box-align: center;
 	-moz-flex-direction: row;
 	-moz-flex-wrap: wrap;
 	-moz-justify-content:space-between;
 	
 	display: box;
-	box-pack: center;
+	box-pack: justify;
 	box-align: center;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -80,7 +80,7 @@ body{
 }
 
 .boxItem img{
-	width: 90px;
-	height: 90px;
+	width: 80px;
+	height: 80px;
 }
 }
